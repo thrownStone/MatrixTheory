@@ -47,6 +47,16 @@ Jordan form
 
 - egienvector正交，且可以选出orthornomal egienvector
 - 实对称矩阵egienvalue均为实数
+- 可对角化为 QλQ^T
+
+Hermite矩阵：
+
+- eigenvalue为实数
+- 可对角化
+
+Unitary矩阵：
+
+- 特征值模为1
 
 实正定矩阵：
 
@@ -78,17 +88,20 @@ Jordan form
 - 单纯矩阵谱分解Ai性质：幂等、分离、可加（直接相加为E，加权相加为A）
 - 单纯矩阵的充要条件（有k个不同的特征值时）：分离、可加
 
-正规矩阵：
+### Hermite矩阵分解
+常用的还是A = U * λ * U^H
+
+### 正规矩阵
 
 - 正规矩阵：A^H * A = A * A^H
 - U相似：A = UBU^H
 - U等价：A = UBV
 - 正规矩阵A与矩阵B U相似，则B也是正规矩阵
-- 正规矩阵分解：A = URU^H （R中主对角元为Aeigenvalue）
+- Schur定理：A = URU^H （A属于C^n*n，R中主对角元为A的eigenvalue）
 - 三角矩阵A是正规矩阵的充要条件：A是对角矩阵
 - A是正规矩阵的充要条件：A = U * diag( eigenvalue ) * U^H or A有k个不同特征值，且A同时是Hermite矩阵和单纯矩阵
 
-### 最大值分解
+### 最大秩分解
 
 A = BD
 
@@ -128,3 +141,52 @@ Proof:
 ### Problem Set：
 
 需要重做
+
+# chapter 4
+
+## 4.1
+
+### Schur不等式
+
+### Hirsch不等式
+
+### Bendixson不等式&推论
+
+### Browne不等式
+
+### Hadamard不等式
+
+## 4.2
+
+### 圆盘定理
+
+### 圆盘定理1
+
+### 圆盘定理2
+
+### 推论
+
+- 1
+- 2
+- 3
+- 4
+
+### 定理3
+
+### 定理4
+
+## 4.3
+
+### Rayleigh Quotient
+
+### 
+
+### 
+
+### 
+
+### 
+
+### 
+
+### 
