@@ -123,7 +123,7 @@ Proof:
 
 	A^T * A = V (Σ^T * Σ) V^H
 	所以，V是A^TA的eigenvector，eigenvalue是σ^2
-	又因为Av_i = σ_i * u_i，可以证明u之间满足正交的关系。事实上，u是AA^T的eigenvector
+	又因为Av_i = σ_i * u_i，可以证明u之间满足正交的关系。事实上，u是AA^H的eigenvector。（A^HA AA^H的eigenvalue相同
 
 ### Problem Set：
 
