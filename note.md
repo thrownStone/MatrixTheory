@@ -43,18 +43,18 @@ Jordan form
 	
 # chapter 3
 
-对称矩阵：
+### 对称矩阵：
 
 - egienvector正交，且可以选出orthornomal egienvector
 - 实对称矩阵egienvalue均为实数
 - 可对角化为 QλQ^T
 
-Hermite矩阵：
+### Hermite矩阵：
 
 - eigenvalue为实数
 - 可对角化
 
-Unitary矩阵：
+### Unitary矩阵：
 
 - 特征值模为1
 
@@ -89,6 +89,7 @@ Unitary矩阵：
 - 单纯矩阵的充要条件（有k个不同的特征值时）：分离、可加
 
 ### Hermite矩阵分解
+
 常用的还是A = U * λ * U^H
 
 ### 正规矩阵
@@ -137,6 +138,12 @@ Proof:
 	A^T * A = V (Σ^T * Σ) V^H
 	所以，V是A^TA的eigenvector，eigenvalue是σ^2
 	又因为Av_i = σ_i * u_i，可以证明u之间满足正交的关系。事实上，u是AA^H的eigenvector。（A^HA AA^H的eigenvalue相同
+
+定理1：
+
+- rank(A) = rank(A^HA) = rank(AA^H)
+- A^HA AA^H eigenvalue 非负实数
+- A^HA AA^H非零特征值相同且代数重复度相同
 
 ### Problem Set：
 
@@ -217,3 +224,13 @@ Hermite矩阵，且B为半正定时，特征值和的关系
 需要重做
 
 # chapter 5
+
+# chapter 6
+
+## 6.1
+
+### 
+### 
+### 
+### 
+### 
