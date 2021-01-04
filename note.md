@@ -19,8 +19,8 @@ Jordan form
 
 ### vector norm： 
 
-- 第一范数 
-- 第二范数 
+- 1范数 
+- 2范数 
 - 无穷范数
 - holder不等式
 
@@ -147,46 +147,73 @@ Proof:
 ## 4.1
 
 ### Schur不等式
+矩阵特征值模的平方和 <= 矩阵的2范数 （当为正定矩阵时取等
 
 ### Hirsch不等式
+A: n * n
+
+B: (A + A^H) / 2 (Hermite)
+
+C: (A - A^H) / 2 (anti Hermite)
+
+- |λi| ≤ n max|a_ij|
+- |Re(λi)| ≤ n max|b_ij|
+- |Im(λi)| ≤ n max|c_ij|
 
 ### Bendixson不等式&推论
+	|Im(λi)| ≤ sqrt(n(n-1) / 2) max|c_ij|
+
+- 实方阵的复特征值成对出现
+- Hermite矩阵的eigenvalue均为实数
+- Anti Hermite矩阵的eigenvalue均为虚数
 
 ### Browne不等式
+	σ_n ≤ |λi| ≤ σ_1
 
 ### Hadamard不等式
 
 ## 4.2
 
-### 圆盘定理
 
 ### 圆盘定理1
 
 ### 圆盘定理2
+n个圆盘并形成一个连通区域，且与剩下的不相交才可以使用该定理 
 
 ### 推论
 
-- 1
-- 2
-- 3
-- 4
+- 1. 行圆盘定理适用于列
+- 2. all eigenvalue 都落在行、列圆盘的交集区域
+- 3. n个圆盘互不相交，A相似于对角矩阵
+- 4. n个圆盘互不相交，A的eigenvalue全为实数
 
 ### 定理3
 
 ### 定理4
+严格对角占优有：
 
-## 4.3
+- A可逆
+- 若A为Hermite且所有对角元为正，则A的eigenvalue均为正数
+
+## 4.4
 
 ### Rayleigh Quotient
 
-### 
+### C-F定理
+Hermite矩阵，最大最小Rayleigh Quotient = λ_k
 
-### 
+### Weyl定理
+Hermite矩阵，矩阵特征值和的大小关系
 
-### 
+### 推论
+Hermite矩阵，且B为半正定时，特征值和的关系
 
-### 
+## 4.5
 
-### 
+### 单调范数
 
-### 
+### Problem Set：
+
+需要重做
+
+# chapter 5
