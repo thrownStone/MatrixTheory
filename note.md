@@ -76,11 +76,12 @@ Jordan form
 
 ### A为任意矩阵时分解:
 
-- A = U * (R; O)
-- A = (L O) * U
-- A = U * R（唯一）
-- A = L * U（唯一）
+- A = U * (R; O) （行满秩）
+- A = (L O) * U（列满秩）
+- A = U * R（唯一）（行满秩）
+- A = L * U（唯一）（列满秩）
 - A = U * (L O; O O) * V
+- Schur定理：A = URU^H （A为方阵，R中主对角元为A的eigenvalue）
 
 唯一分解的直观解释：基向量的数量（即空间维度） = 矩阵的rank（即无关向量个数）
 
@@ -100,7 +101,6 @@ Jordan form
 - U相似：A = UBU^H
 - U等价：A = UBV
 - 正规矩阵A与矩阵B U相似，则B也是正规矩阵
-- Schur定理：A = URU^H （A属于C^n*n，R中主对角元为A的eigenvalue）
 - 三角矩阵A是正规矩阵的充要条件：A是对角矩阵
 - A是正规矩阵的充要条件：A = U * diag( eigenvalue ) * U^H or A有k个不同特征值，且A同时是Hermite矩阵和单纯矩阵
 
